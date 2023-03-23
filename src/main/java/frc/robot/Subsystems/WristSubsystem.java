@@ -11,10 +11,10 @@ public class WristSubsystem extends SubsystemBase{
         wristMotor = new Spark(Constants.WristConstants.wristMotorID);
     }
     public void Up(){
-        wristMotor.set(.75);
+        wristMotor.set(.25);
     }
     public void Down(){
-        wristMotor.set(-.75);
+        wristMotor.set(-.25);
     }
     public void Stop(){
         wristMotor.set(0);
